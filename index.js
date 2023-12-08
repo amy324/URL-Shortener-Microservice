@@ -24,7 +24,7 @@ app.get('/api/hello', function(req, res) {
 
 // URL Shortener Logic
 const urlDatabase = {};
-const baseUrl = 'https://your-base-url.com'; 
+const baseUrl = 'https://url-shortener-microservice-nfm5.onrender.com'; 
 
 app.post('/api/shorturl', function(req, res) {
   const originalUrl = req.body.url;
